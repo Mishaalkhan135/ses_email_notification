@@ -1,0 +1,6 @@
+type Mutation {
+	"""
+	user
+	"""
+	verify_code(verification_code: String!, email: String!): String!
+}
